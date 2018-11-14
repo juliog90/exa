@@ -1,0 +1,10 @@
+* {
+	font-family:arial;
+}
+#tablethumbnails img {
+	height:80px;
+	cursor:pointer;
+}
+#mainphoto {
+	height:400px;
+}

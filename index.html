@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Photos</title>
+		<!--style sheets-->
+		<link href="css/style.css" rel="stylesheet"/>
+		<!--scripts-->
+		<script src="js/main.js"></script>
+		<!--meta data-->
+		<meta charset="utf8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+	</head>
+	<body onload="init()">
+		<table id="tablethumbnails" border="1px"></table>
+		<br>
+		<table border="1px">
+			<tr>
+				<td rowspan="2"><img src="images/arrow_left.png" onclick="showPreviousPhoto()"/></td>
+				<td><img id="mainphoto"/></td>
+				<td rowspan="2"><img src="images/arrow_right.png" onclick="showNextPhoto()"/></td>
+			</tr>
+			<tr><td id="description"></td></tr>
+		</table>
+	</body>
+</html>
